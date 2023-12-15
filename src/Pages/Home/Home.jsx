@@ -1,15 +1,38 @@
 import React from 'react';
 import Navbar from '../../Component/Navbar/Navbar';
-import Banner from '../../Component/Banner/Banner';
+import Banner from '../../Shared/Banner/Banner';
 import TropicalAdvancture from '../../Component/TropicalAdvancture/TropicalAdvancture';
+import Designation from '../../Component/Designation/Designation';
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Banner></Banner>
+            <Banner
+             isBanner={true}
+             paragraph={'Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum integer rutrum nisi. A nec nisl vitae'}
+             
+             mainHeader={`    Tropical  Destinations`}
+             subHeader={'Discover the beauty of the tropics'}
+             
+             ></Banner>
 
             <TropicalAdvancture></TropicalAdvancture>
+            <Designation></Designation> 
+              
+        <Banner 
+        isBanner={false} 
+        mainHeader={'Student discounts available.Get Ready for some in the sun!'}
+         subHeader={'Get 20% off for student'}
+        
+        
+        
+        
+        >  </Banner>
+          
+
+ 
+
         </div>
     );
 };

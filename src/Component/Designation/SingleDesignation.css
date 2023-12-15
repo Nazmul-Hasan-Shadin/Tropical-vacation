@@ -1,0 +1,32 @@
+.botom-text >p {
+    color: #000;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+
+}
+.card-body{
+    color: #000;
+  padding:0px  24px;
+font-size: 16px;
+
+font-weight: 900;
+line-height: normal;
+}
+
+.card-body > h2{
+    margin-bottom: 40px;
+}
+.card-wrapper div >img{
+    width: 288px;
+}
+
+.botom-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+.botom-text >p {
+    font-weight: 500;
+}

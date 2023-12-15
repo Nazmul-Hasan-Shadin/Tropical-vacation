@@ -71,14 +71,25 @@ img.circle{
 .elips{
     position: absolute;
     height: 38px !important;
-    top: -26px;
+    top: -51px;
     left: 32px;
 }
 
 .banner-elips2{
     position: absolute;
-    top: 120px;
+    top: 83px;
     left: 315px;
     height:  30px !important;
 }
 
+.bannerBtn{
+    margin-top: 50px;
+}
+
+
+/* conditinal css based on  js */
+
+.conditionalContainer{
+    display: flex;
+    flex-direction: row-reverse;
+}
