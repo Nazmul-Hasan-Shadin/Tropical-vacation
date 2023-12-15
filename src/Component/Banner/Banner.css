@@ -9,13 +9,20 @@
     justify-content: center;
      align-items: center;
      padding: 80px 120px;
+     position: relative;
 
        
 }
 .container img{
     height: 380px;
 }
-
+ 
+.banner-text{
+    font-size: 20px;
+    font-weight: 600;
+  
+    color: #1F2027;
+}
 .subtitle{
     font-weight:500;
     color: #1F2027;
@@ -35,3 +42,43 @@
 
 
 }
+
+.image-container{
+    position: relative;
+    
+
+}
+.image-container >img{
+    position: relative;
+    bottom: 0px;
+    left: 18px;
+    border-bottom-right-radius: 161px;
+    border-bottom-left-radius: 155px;
+}
+img.circle{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    height: 350px;
+    top: 31px;
+
+
+}
+.banne-main-text{
+  position: relative;
+}
+
+.elips{
+    position: absolute;
+    height: 38px !important;
+    top: -26px;
+    left: 32px;
+}
+
+.banner-elips2{
+    position: absolute;
+    top: 120px;
+    left: 315px;
+    height:  30px !important;
+}
+

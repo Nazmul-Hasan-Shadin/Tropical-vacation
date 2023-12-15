@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+     padding: 60px;
+    background: #FFF;
+    gap: 251px;
+    
+  
+    
+    
+}
+
+.card-containerr{
+  
+
+   display: flex;
+
+   flex-direction: column;
+    gap: 50px;
+    
+
+}
+
+.advanture-text> h2{
+    
+font-style: normal;
+font-weight: 600;
+}
+
+.advanture-text ul{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.subtitle{
+    font-size: 34px;
+}
+
+

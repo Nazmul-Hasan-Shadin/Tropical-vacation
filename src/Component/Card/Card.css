@@ -1,0 +1,30 @@
+ .card-container{
+    background-color: #FFFFFF;
+    z-index: 44;
+    padding: 24px;
+    box-shadow: 4px  12px 98px 3px #F2F2F2 ;
+     width: 360px;
+
+    
+ }
+.card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 25px;
+    height: 40px;
+  
+  
+}
+.card-text h3,p{
+    margin: 0;
+}
+.name{
+    font-size: 16px;
+    font-weight: 700;
+}
+.desc{
+    font-size: 14px;
+    font-weight: 400;
+}
