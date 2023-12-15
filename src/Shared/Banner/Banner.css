@@ -135,3 +135,13 @@ ul{
      justify-content: space-between;
      gap:156px;
 }
+
+
+.halfCircle{
+    height: 257px;
+    position: absolute;
+    left: -7px;
+    bottom: 3px;
+    z-index: -1;
+
+}

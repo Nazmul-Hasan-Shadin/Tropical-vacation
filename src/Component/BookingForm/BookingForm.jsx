@@ -5,7 +5,7 @@ const BookingForm = () => {
         <div className='form-container'>
             <section className='form-wraper'>
                 <h2>Book Now</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, asperiores.
+                <p style={{padding:'0 4px', color:'gray'}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, asperiores.
 
                 </p>
 
@@ -45,7 +45,7 @@ const BookingForm = () => {
                </div>
 
 
-                   <button>Book Now</button>
+                   <button className='booking-btn'>Book Now</button>
               </form>
             </section>
         </div>

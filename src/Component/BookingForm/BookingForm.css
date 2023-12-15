@@ -1,5 +1,6 @@
 .form-container{
-   
+    background-color: white;
+    width: 329px;
 }
 
 .form-wraper{
@@ -44,4 +45,9 @@
 
 .mainForm{
     margin:  0px;
+}
+
+.booking-btn{
+    background-color: black;
+    margin-top: 34px;
 }

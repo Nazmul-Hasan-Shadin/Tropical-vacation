@@ -5,6 +5,7 @@ import elips from '../../assets/images/Ellipse.png'
 import elips2 from '../../assets/images/Ellipse2.png'
 import girl from '../../assets/images/girlBanner.png'
 import girl2 from '../../assets/images/femaleHero.png'
+import halfCircle from '../../assets/images/halfCircle.png'
 
 import React from 'react'
 import BookingForm from '../../Component/BookingForm/BookingForm'
@@ -86,7 +87,18 @@ const Banner = ({paragraph,mainHeader,subHeader,isBanner ,breakWord,isBooking}) 
       </>: 
       <div>
       
-       <img className='discountHeroImg' src={girl} alt="" />
+      {  isBooking ?  <div style={{position:'relative'}}>
+ 
+        <img className='discountHeroImg' src={girl2} alt="" />
+        <img  className='halfCircle' src={halfCircle} alt="" />
+
+
+      </div>:  <div style={{position:'relative'}}>
+
+      <img className='discountHeroImg' src={girl} alt="" /> 
+      
+   
+      </div>  }
       
       
       </div>
