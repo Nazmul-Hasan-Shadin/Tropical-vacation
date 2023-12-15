@@ -48,7 +48,7 @@
     
 
 }
-.image-container >img{
+.image-container >img {
     position: relative;
     bottom: 0px;
     left: 18px;
@@ -77,9 +77,10 @@ img.circle{
 
 .banner-elips2{
     position: absolute;
-    top: 83px;
-    left: 315px;
-    height:  30px !important;
+    top: 17px;
+   
+    right: 26px;
+    height: 30px !important;
 }
 
 .bannerBtn{
@@ -91,5 +92,46 @@ img.circle{
 
 .conditionalContainer{
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 83px;
+}
+
+.discountHeroImg{
+
+    width: 266px;
+}
+
+.conditionMargin{
+    margin-top: 70px;
+}
+
+ul{
+    font-size: 14px;
+    color: gray;
+}
+
+.banner-title2{
+
+    color: #1F2027;
+    font-size: 38px ;
+
+ font-weight: 700;
+
+ margin: 0;
+
+
+}
+
+
+.bookingsStyle{
+    display: none;
+}
+
+.bookingFormPosition{
+    display: flex;
+   flex-direction: row-reverse;
+     justify-content: space-between;
+     gap:156px;
 }

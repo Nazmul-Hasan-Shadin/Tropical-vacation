@@ -1,0 +1,47 @@
+.form-container{
+   
+}
+
+.form-wraper{
+    padding: 10px;
+}
+
+.city{
+    display: flex;
+    width: 288px;
+    height: 34.529px;
+    padding-left: 23.51px;
+    align-items: center;
+    color: var(--muted-color, #78858F);
+    font-size: 14.008px;
+    border-radius: 11.673px;
+    border: 0px solid #000;
+    background: #F3F3F3;
+    margin: 12px 0px;
+    
+}
+
+.inputItem{
+    display: flex;
+    width: 128px;
+    height: 34.529px;
+    padding-left: 23.51px;
+    align-items: center;
+    color: var(--muted-color, #78858F);
+    font-size: 14.008px;
+    border-radius: 11.673px;
+    border: 0px solid #000;
+    background: #F3F3F3;
+    margin: 10px 0px;
+}
+
+.destination{
+    display: flex;
+     gap: 7px;
+     margin: 10px 0px;
+}
+
+
+.mainForm{
+    margin:  0px;
+}

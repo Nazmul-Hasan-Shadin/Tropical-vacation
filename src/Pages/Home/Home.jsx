@@ -22,13 +22,25 @@ const Home = () => {
               
         <Banner 
         isBanner={false} 
-        mainHeader={'Student discounts available.Get Ready for some in the sun!'}
+        breakWord={'break'}
+        mainHeader={'Student discounts   available. break Get Ready for some in the sun!'}
          subHeader={'Get 20% off for student'}
         
         
         
         
         >  </Banner>
+
+
+   <Banner   
+      isBooking={true} 
+      breakWord={'break'}
+      mainHeader={'Student discounts   available. break Get Ready for some in the sun!'}
+       subHeader={'Get 20% off for student'}
+      
+   
+   ></Banner>
+
           
 
  
