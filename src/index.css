@@ -1,0 +1,30 @@
+
+
+
+
+body {
+  margin: 0;
+  display: flex;
+
+  max-width: 1080px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+
+button {
+  border-radius: 30px;
+background: #F27A44;
+  border: 1px solid transparent;
+  color: white;
+  padding: 16px 32px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+   
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}

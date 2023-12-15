@@ -1,0 +1,37 @@
+.nav-parent{
+    width: 1060px;
+     background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+.navbar{
+    margin-right: 363px;
+}
+.navbar,.nav-parent{
+    display: flex;
+    
+    
+     
+
+}
+.navbar li {
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.nav-parent  ul.right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.right-content li{
+     margin-right: 40px;
+}
+.navbar ,.nav-parent .right-content {
+    text-decoration: none;
+    list-style: none;
+    
+}

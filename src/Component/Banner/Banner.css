@@ -1,0 +1,37 @@
+
+.main-container{
+    background-color: rgba(248, 241, 211, 0.25);
+     max-width: 100%
+    ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding: 80px 120px;
+
+       
+}
+.container img{
+    height: 380px;
+}
+
+.subtitle{
+    font-weight:500;
+    color: #1F2027;
+    font-size: 50px;
+    margin: 0;
+     
+}
+
+.banner-title{
+
+    color: #1F2027;
+    font-size: 50px ;
+
+ font-weight: 700;
+
+ margin: 0;
+
+
+}
