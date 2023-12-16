@@ -44,9 +44,9 @@ const Home = () => {
    
    ></Banner>
 
-{/* <Testimonials></Testimonials> */}
+<Testimonials></Testimonials>
 
-{/* <Footer></Footer> */}
+<Footer></Footer>
 
           
 

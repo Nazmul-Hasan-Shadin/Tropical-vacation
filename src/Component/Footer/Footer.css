@@ -1,7 +1,17 @@
 .footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
     gap: 65px;
     justify-content: center;
     font-size: 11px;
 
+}
+
+@media screen and (max-width:576px) {
+     .footer{
+        flex-direction: column;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+        text-align: center;
+     }
 }
