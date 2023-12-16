@@ -23,7 +23,7 @@ const Home = () => {
             <TropicalAdvancture></TropicalAdvancture>
             <Designation></Designation> 
               
-        {/* <Banner 
+        <Banner 
         isBanner={false} 
         breakWord={'break'}
         mainHeader={'Student discounts   available. break Get Ready for some in the sun!'}
@@ -32,9 +32,9 @@ const Home = () => {
         
         
         
-        >  </Banner> */}
+        >  </Banner>
 
-{/* 
+
    <Banner   
       isBooking={true} 
       breakWord={'break'}
@@ -42,7 +42,7 @@ const Home = () => {
        subHeader={'Get 20% off for student'}
       
    
-   ></Banner> */}
+   ></Banner>
 
 {/* <Testimonials></Testimonials> */}
 

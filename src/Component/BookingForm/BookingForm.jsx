@@ -6,7 +6,7 @@ const BookingForm = () => {
         <div className='form-container'>
             <section className='form-wraper'>
                 <h2>Book Now</h2>
-                <p style={{padding:'0 4px', color:'gray'}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, asperiores.
+                <p className='book-form-text' style={{padding:'0 4px', color:'gray'}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, asperiores.
 
                 </p>
 

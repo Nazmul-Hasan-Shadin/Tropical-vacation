@@ -210,5 +210,18 @@ ul{
         height: 19px !important;
     
     }
+
+    .conditionalContainer,.bookingFormPosition{
+        flex-direction: column;
+    }
+
+    .bookingFormPosition{
+        margin-left: 92px;
+
+    }
+.book-form-text{
+    margin: 18px 0px;
+}
+    
     
 }
