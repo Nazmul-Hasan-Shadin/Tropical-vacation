@@ -1,8 +1,9 @@
 
 .main-container{
     background-color: rgba(248, 241, 211, 0.25);
-     max-width: 100%
-    ;
+    width: 1288px;
+    margin: 3px -97px;
+
 }
 .container{
     display: flex;
@@ -144,4 +145,11 @@ ul{
     bottom: 3px;
     z-index: -1;
 
+}
+
+
+/* mobile device responsive */
+
+.container{
+    flex-direction: column;
 }

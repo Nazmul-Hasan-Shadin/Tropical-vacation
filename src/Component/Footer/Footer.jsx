@@ -1,4 +1,4 @@
-import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
@@ -10,11 +10,43 @@ const Footer = () => {
                 Student Special: Discounted rates <br /> on tropical getaways!
                 </h2>
 
-                <p style={{textAlign:"center",marginTop:'7px'}}>
+                <p style={{textAlign:"center",margin:'23px 0px'}}>
                 Let’s embody your beautiful ideas together, simplify the <br /> way you visualize your next big things.
                 </p>
          
             </header>
+
+            <footer className='footer'>
+
+        <div>
+            <h3>Privacy Policy</h3>
+        </div>
+        <div>
+            <h3>Terms of Use</h3>
+        </div>
+        <div>
+            <h3>Sales and Refunds</h3>
+        </div>
+        <div>
+            <h3>Legal</h3>
+        </div>
+        <div>
+            <h3>About</h3>
+        </div>
+        <div>
+            <h3>Schedules</h3>
+        </div>
+        <div>
+            <h3>Pricing</h3>
+        </div>
+        <div>
+            <h3>Membership</h3>
+        </div>
+        <div>
+            <h3>Joins</h3>
+        </div>
+
+            </footer>
         </div>
     );
 };
