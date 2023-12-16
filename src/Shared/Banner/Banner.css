@@ -150,6 +150,65 @@ ul{
 
 /* mobile device responsive */
 
-.container{
-    flex-direction: column;
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+         padding: 0;
+    }
+    .main-container{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 18px;
+    }
+    .subtitle{
+        font-size: 19px;
+    }
+
+    .image-container >img {
+      height: 247px;
+     
+    }
+
+    img.circle{
+   
+        left: 13px;
+       
+        height: 220px;
+        top: 31px;
+        top: 28px;
+    
+    }
+    .banner-btn{
+        padding: 10px 32px;
+
+    }
+
+    .main-container{
+        padding: 0 46px;
+    }
+    .banne-main-text{
+        padding: 89px;
+    }
+
+    .image-container {
+        position: relative;
+        margin-top: -65px;
+    }
+
+    .elips{
+        height: 23px !important;
+        top: 56px;
+        left: 89px;
+    
+    }
+
+    .banner-elips2{
+     
+        top: 129px;
+        right: 112px;
+        height: 19px !important;
+    
+    }
+    
 }
