@@ -51,3 +51,22 @@
     background-color: black;
     margin-top: 34px;
 }
+
+.form-wraper .increment{
+    position: relative;
+}
+
+.form-wraper .increment .add{
+    position: absolute;
+    font-size: 21px;
+    bottom: 18px;
+    left: 4px;
+}
+
+.form-wraper .increment .minus{
+    position: absolute;
+    position: absolute;
+    right: 12px;
+    bottom: 22px;
+}
+

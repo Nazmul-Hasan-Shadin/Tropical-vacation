@@ -1,4 +1,5 @@
-
+import {IoAddSharp} from 'react-icons/io5'
+import {TiMinusOutline} from 'react-icons/ti'
 import './BookingForm.css'
 const BookingForm = () => {
     return (
@@ -31,16 +32,22 @@ const BookingForm = () => {
 
 
                <div className="destination">
-               <label htmlFor="start">Start
+             <div className='increment'>
+             <IoAddSharp className='add' />
+             <TiMinusOutline className='minus' />
+             <label htmlFor="start">Start
                <input className='inputItem' type="text" placeholder='11 October' />
                </label>
+             </div>
           
 
-               <label htmlFor="room">Start
-               
-               <input className='inputItem' type="text" name='room' placeholder='11 October' />
-               
+             <div className='increment'>
+             <IoAddSharp className='add' />
+             <TiMinusOutline className='minus'></TiMinusOutline>
+             <label htmlFor="start">Start
+               <input className='inputItem' type="text" placeholder='11 October' />
                </label>
+             </div>
               
                </div>
 

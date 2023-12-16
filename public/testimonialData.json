@@ -1,0 +1,21 @@
+[
+    {
+        "name":"Corey Korsgaard",
+         "desc":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "image":"../src/assets/testimonials/profile1.png"
+           
+    },
+    {
+        "name":"Corey Korsgaard",
+         "desc":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "image":"../src/assets/testimonials/profile2.png"
+         
+    }
+    ,
+    {
+        "name":"Corey Korsgaard",
+         "desc":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "image":"../src/assets/testimonials/profile3.png"
+         
+    }
+]

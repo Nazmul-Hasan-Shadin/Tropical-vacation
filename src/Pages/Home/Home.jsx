@@ -3,6 +3,9 @@ import Navbar from '../../Component/Navbar/Navbar';
 import Banner from '../../Shared/Banner/Banner';
 import TropicalAdvancture from '../../Component/TropicalAdvancture/TropicalAdvancture';
 import Designation from '../../Component/Designation/Designation';
+import Testimonial from '../../Component/Testimonials/Testimonial';
+import Testimonials from '../Testimonials/Testimonials';
+import Footer from '../../Component/Footer/Footer';
 
 const Home = () => {
     return (
@@ -40,6 +43,10 @@ const Home = () => {
       
    
    ></Banner>
+
+<Testimonials></Testimonials>
+
+<Footer></Footer>
 
           
 
