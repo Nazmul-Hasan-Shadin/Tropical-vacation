@@ -20,9 +20,9 @@ const Home = () => {
              
              ></Banner>
 
-            {/* <TropicalAdvancture></TropicalAdvancture>
-            <Designation></Designation> 
-               */}
+            <TropicalAdvancture></TropicalAdvancture>
+            {/* <Designation></Designation>  */}
+              
         {/* <Banner 
         isBanner={false} 
         breakWord={'break'}

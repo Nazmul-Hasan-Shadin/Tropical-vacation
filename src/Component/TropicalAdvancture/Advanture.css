@@ -37,3 +37,21 @@ font-weight: 600;
 }
 
 
+
+@media screen and (max-width:576px) {
+    .wrapper{
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 53px;
+
+    }
+    .card-containerr{
+        padding: 9px;
+       
+        width: 343px;
+    }
+    .advanture-text {
+        margin-top: 73px;
+    }
+    
+}
