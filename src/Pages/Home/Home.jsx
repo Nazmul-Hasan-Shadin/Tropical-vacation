@@ -21,7 +21,7 @@ const Home = () => {
              ></Banner>
 
             <TropicalAdvancture></TropicalAdvancture>
-            {/* <Designation></Designation>  */}
+            <Designation></Designation> 
               
         {/* <Banner 
         isBanner={false} 

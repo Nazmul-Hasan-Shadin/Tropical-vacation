@@ -7,7 +7,7 @@ import designnation3 from '../../assets/designation/desig3.png'
 const Designation = () => {
     return (
      <>
-      <h2 style={{marginBottom:'10px'}}>Our Designation</h2>
+      <h2 style={{marginBottom:'10px'}} className='designation-title'>Our Designation</h2>
           
              <div className='designations-container'>
          <SingleDesignation 

@@ -2,3 +2,19 @@
     display: flex;
     gap: 7px;
 }
+
+
+
+@media screen and (max-width:576px) {
+    .designations-container{
+        flex-direction: column;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+    }
+    .designation-title{
+        text-align: center;
+    }
+    
+    
+}
