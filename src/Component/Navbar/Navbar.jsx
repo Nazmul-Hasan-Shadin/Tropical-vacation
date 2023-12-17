@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
         <ul className='navbar'>
-            <li>Home</li>
+            <li  >Home</li>
             <li>About</li>
             <li>Membership</li>
             <li>Pricing</li>
