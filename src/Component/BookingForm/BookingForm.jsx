@@ -1,7 +1,39 @@
 import {IoAddSharp} from 'react-icons/io5'
 import {TiMinusOutline} from 'react-icons/ti'
+import toast, { Toaster } from 'react-hot-toast';
+
 import './BookingForm.css'
+import { useState } from 'react';
 const BookingForm = () => {
+  const [increase,setIncrease]= useState(0)
+  const [start,setStart]=useState(0)
+
+  const handleIncrease=()=>{
+        
+       setIncrease(increase+1)
+  }
+
+
+  const handleDecrease=()=>{
+     if (increase<=0) {
+       toast.error('Number cannot be less then 0')
+       return
+     }
+    setIncrease(increase-1)
+}
+
+const handleDecreseStart=()=>{
+
+  if (start<=0) {
+    toast.error('Number cannot be less then 0')
+    return
+  }
+   
+  setStart(start-1)}
+
+
+
+
     return (
         <div className='form-container'>
             <section className='form-wraper'>
@@ -33,19 +65,19 @@ const BookingForm = () => {
 
                <div className="destination">
              <div className='increment'>
-             <IoAddSharp className='add' />
-             <TiMinusOutline className='minus' />
+             <IoAddSharp onClick={()=>setStart(start+1)} className='add' />
+             <TiMinusOutline onClick={handleDecreseStart} className='minus' />
              <label htmlFor="start">Start
-               <input className='inputItem' type="text" placeholder='11 October' />
+               <input  className='inputItem' type="text" placeholder='Room number' value={start} />
                </label>
              </div>
           
 
              <div className='increment'>
-             <IoAddSharp className='add' />
-             <TiMinusOutline className='minus'></TiMinusOutline>
-             <label htmlFor="start">Start
-               <input className='inputItem' type="text" placeholder='11 October' />
+             <IoAddSharp onClick={handleIncrease} className='add' />
+             <TiMinusOutline onClick={handleDecrease} className='minus'></TiMinusOutline>
+             <label htmlFor="start">Room
+               <input className='inputItem' type="text" placeholder='' value={increase} />
                </label>
              </div>
               
