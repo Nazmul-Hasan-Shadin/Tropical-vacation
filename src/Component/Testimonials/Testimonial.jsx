@@ -2,6 +2,7 @@ import React from 'react';
 import './Testimonial.css'
 const Testimonial = ({testimonial}) => {
     const {image,desc,name}=testimonial;
+    console.log(image);
     return (
         <div className='testimonial-container'>
             <div className='testimonial-wraper'>
