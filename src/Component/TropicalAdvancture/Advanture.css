@@ -3,7 +3,7 @@
     align-items: center;
      padding: 100px;
     background: #FFF;
-    gap: 251px;
+    gap: 108px;
     
   
     
@@ -48,7 +48,7 @@ img.substrac-circle {
 @media screen and (max-width:576px) {
     .wrapper{
         flex-direction: column-reverse;
-        padding: 100px 0px;
+        padding: 100px 26px;
         gap: 53px;
 
     }
