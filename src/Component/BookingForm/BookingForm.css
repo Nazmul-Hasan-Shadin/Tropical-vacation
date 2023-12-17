@@ -69,4 +69,6 @@
     right: 12px;
     bottom: 22px;
 }
-
+p.book-form-text {
+    margin: 12px 0px;
+}

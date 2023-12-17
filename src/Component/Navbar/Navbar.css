@@ -35,6 +35,10 @@
     list-style: none;
     
 }
+.navIcon{
+    display: none;
+}
+
 
 
 
@@ -58,7 +62,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 23px;
-        width: 100%;
+        width: 302px;
         padding-top: 11px;
          
     
@@ -71,7 +75,7 @@
     }
 
     .right-content{
-        padding:0 ;
+        align-items: start !important;
     }
 
 
@@ -86,16 +90,17 @@
       .active{
         display: block;
       }
+           
+    .navIcon{
+        display: block;
+    }
 }
 
 
 
 /* medium device style */
 
-@media screen and (min-width:577px) and (max-width:720px) {
-     
-    .navIcon{
-        display: none;
-    }
 
-}
+
+
+
