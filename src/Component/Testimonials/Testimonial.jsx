@@ -6,7 +6,7 @@ const Testimonial = ({testimonial}) => {
         <div className='testimonial-container'>
             <div className='testimonial-wraper'>
                <figure>
-               <img src={image} alt="" />
+               <img style={{width:'100px' ,height:'100px'}} className='test-img' src={image} alt="" />
                </figure>
               <hr />
             <h3 className='testimonial-title'>{name}</h3>
