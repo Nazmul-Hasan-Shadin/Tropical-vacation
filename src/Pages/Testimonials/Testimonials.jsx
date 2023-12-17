@@ -5,7 +5,7 @@ import './Testimonials.css'
 const Testimonials = () => {
     const [testimonial,setTestimonial]= useState([])
     useEffect(()=>{
-      fetch('../../../public/testimonialData.json')
+      fetch('/testimonialData.json')
       .then(res=>res.json())
       .then(data=>{
         setTestimonial(data)

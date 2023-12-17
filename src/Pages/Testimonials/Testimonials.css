@@ -1,12 +1,10 @@
 .testimonials-container{
-    display: flex;
-    align-items: center;
-    gap: 4px;
-
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 
 @media screen and (max-width:576px) {
     .testimonials-container {
-        flex-direction: column;
+        grid-template-columns: repeat(1,1fr)
     }
 }
