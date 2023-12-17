@@ -19,7 +19,7 @@ const TropicalAdvancture = () => {
   
   return (
   
-    <div>
+    <div className="advanture-container">
           <section className="wrapper">
         <div className="card-containerr">
       

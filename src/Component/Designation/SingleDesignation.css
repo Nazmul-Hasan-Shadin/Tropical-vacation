@@ -30,3 +30,26 @@ line-height: normal;
 .botom-text >p {
     font-weight: 500;
 }
+.swiper-wrapper {
+    max-width: 344px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .card-wrapper div >img {
+        width: 99px;
+        height: 132px;
+       
+    }
+
+    .botom-text >p {
+        font-weight: 500;
+        font-size: 7px;
+    }
+    .card-body > h2 {
+     
+        font-size: 11px;
+    }
+    
+}

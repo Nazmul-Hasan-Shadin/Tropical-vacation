@@ -70,6 +70,11 @@ img.substrac-circle {
         right: 0;
         top: -156px;
     }
+
+    .advanture-container{
+        display: flex;
+        justify-content: center;
+    }
     
     
     
