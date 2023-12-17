@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div>
-            <header style={{margin:'12px 7px'}} className=''>
+            <header style={{margin:'74px 7px'}} className=''>
 
           
             <h2 style={{textAlign:"center"}}>
