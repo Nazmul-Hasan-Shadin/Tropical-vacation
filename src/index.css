@@ -1,8 +1,10 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
 
 body {
+  font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
   margin: 0;
   display: flex;
 
@@ -42,7 +44,7 @@ button:hover {
   
 }
 body{
-  display:static'
+    display:static;
 
 }
 }

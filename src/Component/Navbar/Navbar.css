@@ -20,7 +20,11 @@
 .navbar li {
     margin-right: 40px;
     text-decoration: none;
+    color: var(--Black, #262626);
+
 }
+
+
 
 .nav-parent  ul.right-content {
     display: flex;
