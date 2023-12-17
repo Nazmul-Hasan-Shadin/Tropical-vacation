@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     align-items: center;
-     padding: 100px;
+     padding: 100px 24px;
     background: #FFF;
     gap: 108px;
     

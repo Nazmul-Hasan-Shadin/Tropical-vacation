@@ -3,6 +3,7 @@
     background-color: rgba(248, 241, 211, 0.25);
     width: 1288px;
     margin: 3px -97px;
+    border-radius: 18px;
 
 }
 .container{
@@ -11,6 +12,7 @@
      align-items: center;
      padding: 80px 120px;
      position: relative;
+     gap: 83px;
 
        
 }

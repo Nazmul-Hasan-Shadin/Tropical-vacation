@@ -39,11 +39,11 @@ const TropicalAdvancture = () => {
           <p>Student Tropical Vacation: Relax and Recharge</p>
            
             <ul>
-                <li>Experiential Learning in Breathtaking Landscapes</li>
-                <li>Exclusive Student-Friendly Discounts and Offers</li>
-                <li>Educational Excursions blending Learning and Exploration</li>
-                <li>Thrilling Adventure Sports and Activities</li>
-                <li>Community Building with Like-Minded Students</li>
+                <li style={{margin:'9px 0px'}}>Experiential Learning in Breathtaking Landscapes</li>
+                <li style={{margin:'9px 0px'}}>Exclusive Student-Friendly Discounts and Offers</li>
+                <li style={{margin:'9px 0px'}}>Educational Excursions blending Learning and Exploration</li>
+                <li style={{margin:'9px 0px'}}>Thrilling Adventure Sports and Activities</li>
+                <li style={{margin:'9px 0px'}}>Community Building with Like-Minded Students</li>
             </ul>
             <button>Explore more</button>
         </div> 

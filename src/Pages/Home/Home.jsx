@@ -13,7 +13,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner
              isBanner={true}
-             paragraph={'Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum integer rutrum nisi. A nec nisl vitae'}
+             paragraph={'Embark on a journey to discover the unparalleled beauty of tropical paradises. '}
              
              mainHeader={`    Tropical  Destinations`}
              subHeader={'Discover the beauty of the tropics'}

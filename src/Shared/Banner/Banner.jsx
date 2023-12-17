@@ -42,10 +42,10 @@ const Banner = ({paragraph,mainHeader,subHeader,isBanner ,breakWord,isBooking}) 
           <p> {paragraph} </p>
 
   {    !isBanner &&    <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
+            <li style={{margin:'9px 0px'}}>Enjoy 20% student discount</li>
+            <li style={{margin:'9px 0px'}}>Student savings available</li>
+            <li style={{margin:'9px 0px'}}>Ready for some sun-soaked fun?</li>
+            <li style={{margin:'9px 0px'}}>Student savings available.</li>
           </ul>}
 
 
