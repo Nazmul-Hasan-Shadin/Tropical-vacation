@@ -30,7 +30,7 @@ const TropicalAdvancture = () => {
 
         </div>
         {/* adventure text */}
-        <div   className="advanture-text">
+        <div  style={{width:'250px'}}  className="advanture-text">
   
            {/* <div  style={{position:'relative'}}>
             <img className="substrac-circle" src={circle} alt="" />
