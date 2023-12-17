@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import './Advanture.css'
+ import circle from '../../assets/images/Subtract.png'
 
 const TropicalAdvancture = () => {
   const [cardData,setCardData]=useState([])
@@ -22,13 +23,18 @@ const TropicalAdvancture = () => {
         <div className="card-containerr">
       
   {
-    cardData.map(data=> <Card data={data} ></Card>)
+    cardData.map((data,index)=> <Card key={index} data={data} ></Card>)
   }
 
 
         </div>
         {/* adventure text */}
-        <div className="advanture-text">
+        <div   className="advanture-text">
+  
+           <div  style={{position:'relative'}}>
+            <img className="substrac-circle" src={circle} alt="" />
+           </div>
+
           <h2>Tropical Adventure <br />  <span className="subtitle">for Students</span>.</h2>
           <p>Student Tropical Vacation: Relax and Recharge</p>
            

@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     align-items: center;
-     padding: 60px;
+     padding: 100px;
     background: #FFF;
     gap: 251px;
     
@@ -36,12 +36,19 @@ font-weight: 600;
     font-size: 34px;
 }
 
+img.substrac-circle {
+    top: 23px;
+    position: absolute;
+    top: -128px;
+    height: 114px;
+}
+
 
 
 @media screen and (max-width:576px) {
     .wrapper{
         flex-direction: column-reverse;
-        padding: 0;
+        padding: 100px 0px;
         gap: 53px;
 
     }
@@ -53,5 +60,15 @@ font-weight: 600;
     .advanture-text {
         margin-top: 73px;
     }
+
+    img.substrac-circle {
+        top: 23px;
+        position: absolute;
+        height: 114px;
+        right: 0;
+        top: -156px;
+    }
+    
+    
     
 }
