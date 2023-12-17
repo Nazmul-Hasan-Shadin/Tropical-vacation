@@ -19,7 +19,8 @@ const TropicalAdvancture = () => {
   
   return (
   
-      <section className="wrapper">
+    <div>
+          <section className="wrapper">
         <div className="card-containerr">
       
   {
@@ -31,9 +32,9 @@ const TropicalAdvancture = () => {
         {/* adventure text */}
         <div   className="advanture-text">
   
-           <div  style={{position:'relative'}}>
+           {/* <div  style={{position:'relative'}}>
             <img className="substrac-circle" src={circle} alt="" />
-           </div>
+           </div> */}
 
           <h2>Tropical Adventure <br />  <span className="subtitle">for Students</span>.</h2>
           <p>Student Tropical Vacation: Relax and Recharge</p>
@@ -48,6 +49,7 @@ const TropicalAdvancture = () => {
             <button>Explore more</button>
         </div> 
       </section>
+    </div>
   
   );
 };
